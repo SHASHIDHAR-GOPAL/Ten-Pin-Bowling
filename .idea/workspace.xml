@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9e1aa14d-c058-4f67-a17e-0240177c7f4b" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="994542776">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="43" />
+          <entry key="java" value="2648" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="2648" />
+          <entry key="PLAIN_TEXT" value="43" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/in/mavenhive/bootcamp/ScoreBoard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+              <folding>
+                <element signature="e#684#685#0" expanded="true" />
+                <element signature="e#716#717#0" expanded="true" />
+                <element signature="e#922#923#0" expanded="true" />
+                <element signature="e#967#968#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/in/mavenhive/bootcamp/ScoreBoardTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="515">
+              <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>When</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Given</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/in/mavenhive/bootcamp/Main.java" />
+        <option value="$PROJECT_DIR$/src/in/mavenhive/bootcamp/Bowling.java" />
+        <option value="$PROJECT_DIR$/src/in/mavenhive/bootcamp/BowlingTest.java" />
+        <option value="$PROJECT_DIR$/test/in/mavenhive/bootcamp/BowlingTest.java" />
+        <option value="$PROJECT_DIR$/src/in/mavenhive/bootcamp/Frame.java" />
+        <option value="$PROJECT_DIR$/src/in/mavenhive/bootcamp/Game.java" />
+        <option value="$PROJECT_DIR$/test/in/mavenhive/bootcamp/ScoreBoardTest.java" />
+        <option value="$PROJECT_DIR$/src/in/mavenhive/bootcamp/ScoreBoard.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TenPin Bowling" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TenPin Bowling" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TenPin Bowling" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TenPin Bowling" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TenPin Bowling" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TenPin Bowling" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bootcamp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TenPin Bowling" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TenPin Bowling" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TenPin Bowling" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TenPin Bowling" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="bootcamp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533559671753" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="in.mavenhive.bootcamp" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ScoreBoardTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="in.mavenhive.bootcamp.ScoreBoard" />
+      <module name="TenPin Bowling" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScoreBoardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TenPin Bowling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="in.mavenhive.bootcamp.ScoreBoard" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="in.mavenhive.bootcamp" />
+      <option name="MAIN_CLASS_NAME" value="in.mavenhive.bootcamp.ScoreBoardTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScoreBoardTest.shouldReturnTenGivenOnlyOneStrike" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TenPin Bowling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="in.mavenhive.bootcamp.ScoreBoard" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="in.mavenhive.bootcamp" />
+      <option name="MAIN_CLASS_NAME" value="in.mavenhive.bootcamp.ScoreBoardTest" />
+      <option name="METHOD_NAME" value="shouldReturnTenGivenOnlyOneStrike" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScoreBoardTest.shouldReturnTenWhenAllTurnsAreOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TenPin Bowling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="in.mavenhive.bootcamp.ScoreBoard" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="in.mavenhive.bootcamp" />
+      <option name="MAIN_CLASS_NAME" value="in.mavenhive.bootcamp.ScoreBoardTest" />
+      <option name="METHOD_NAME" value="shouldReturnTenWhenAllTurnsAreOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.ScoreBoardTest" />
+      <item itemvalue="JUnit.ScoreBoardTest.shouldReturnTenWhenAllTurnsAreOne" />
+      <item itemvalue="JUnit.ScoreBoardTest.shouldReturnTenGivenOnlyOneStrike" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ScoreBoardTest" />
+        <item itemvalue="JUnit.ScoreBoardTest.shouldReturnTenGivenOnlyOneStrike" />
+        <item itemvalue="JUnit.ScoreBoardTest.shouldReturnTenWhenAllTurnsAreOne" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e1aa14d-c058-4f67-a17e-0240177c7f4b" name="Default Changelist" comment="" />
+      <created>1533547938178</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533547938178</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ScoreBoardTest - 2018.08.06 at 18h 01m 54s.xml">
+      <configuration name="ScoreBoardTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScoreBoardTest - 2018.08.06 at 18h 02m 14s.xml">
+      <configuration name="ScoreBoardTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScoreBoardTest - 2018.08.06 at 18h 02m 35s.xml">
+      <configuration name="ScoreBoardTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScoreBoardTest - 2018.08.06 at 18h 07m 21s.xml">
+      <configuration name="ScoreBoardTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScoreBoardTest - 2018.08.06 at 18h 09m 07s.xml">
+      <configuration name="ScoreBoardTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScoreBoardTest - 2018.08.06 at 18h 11m 20s.xml">
+      <configuration name="ScoreBoardTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScoreBoardTest - 2018.08.06 at 18h 11m 46s.xml">
+      <configuration name="ScoreBoardTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScoreBoardTest - 2018.08.06 at 18h 13m 21s.xml">
+      <configuration name="ScoreBoardTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScoreBoardTest - 2018.08.06 at 18h 15m 28s.xml">
+      <configuration name="ScoreBoardTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScoreBoardTest - 2018.08.06 at 18h 17m 54s.xml">
+      <configuration name="ScoreBoardTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" weight="0.32891566" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32891566" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23253012" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Key Promoter X" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/in/mavenhive/bootcamp/BowlingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/in/mavenhive/bootcamp/ScoreBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/in/mavenhive/bootcamp/ScoreBoardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/in/mavenhive/bootcamp/ScoreBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+          <folding>
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
+            <element signature="e#967#968#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
