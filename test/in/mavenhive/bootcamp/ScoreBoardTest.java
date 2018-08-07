@@ -48,5 +48,21 @@ class ScoreBoardTest {
         assertEquals(154, scoreBoard.total());
     }
 
+    @Test
+    void shouldReturnTwentyTwoGivenASpareFollowedByThreeAndSixInTheNextFrame() {
+        ScoreBoard scoreBoard = new ScoreBoard("00 5/ 36 00 00 00 00 00 00 00");
+        assertEquals(22, scoreBoard.total());
+    }
 
+    @Test
+    void shouldReturnThirtyGivenAdjacentStrikes() {
+        ScoreBoard scoreBoard = new ScoreBoard("X X 00 00 00 00 00 00 00 00");
+        assertEquals(30, scoreBoard.total());
+    }
+
+    @Test
+    void shouldReturnThirtyThreeGivenAdjacentStrikesFollowedByASinglePoint() {
+        ScoreBoard scoreBoard = new ScoreBoard("X X 10 00 00 00 00 00 00 00");
+        assertEquals(33, scoreBoard.total());
+    }
 }
