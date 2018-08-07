@@ -27,6 +27,9 @@ class Frame {
     }
 
     int firstRoll() {
+        if(this.isStrike()){
+            return 10;
+        }
         return Integer.parseInt(this.firstRoll);
     }
 }

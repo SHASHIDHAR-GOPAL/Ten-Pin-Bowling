@@ -10,14 +10,14 @@ class ScoreBoard {
 
     ScoreBoard(String sequenceOfFrames) {
         String[] arrayOfFrames = sequenceOfFrames.split(" ");
-        for (int frame_index = 0; frame_index < 10; frame_index++) {
+        for (int frame_index = 0; frame_index < arrayOfFrames.length; frame_index++) {
             frames.add(new Frame(arrayOfFrames[frame_index]));
         }
         this.total = 0;
     }
 
     int total() {
-        for (int index = 0; index < frames.size(); index++) {
+        for (int index = 0; index < 10; index++) {
             addFrameTotalToScoreBoardTotal(frames.get(index), index);
         }
         return this.total;
@@ -30,7 +30,7 @@ class ScoreBoard {
     }
 
     private boolean checkAndHandleStrike(Frame frame, int index) {
-        if(frame.isStrike()){
+        if (frame.isStrike()) {
             handleStrike(index);
             return true;
         }
@@ -38,7 +38,7 @@ class ScoreBoard {
     }
 
     private boolean checkAndHandleSpare(Frame frame, int index) {
-        if(frame.isSpare()){
+        if (frame.isSpare()) {
             handleSpare(index);
             return true;
         }
@@ -47,6 +47,15 @@ class ScoreBoard {
 
     private void handleStrike(int index) {
         this.total += 10;
+        if (frames.get(index + 1).isStrike()){
+            this.total += 10;
+            this.total += frames.get(index + 2).firstRoll();
+            return;
+        }
+        if (frames.get(index + 1).isSpare()) {
+            this.total += 10;
+            return;
+        }
         addFrameTotalToScoreBoardTotal(frames.get(index + 1), index+1);
     }
 
