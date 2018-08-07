@@ -26,31 +26,31 @@ class ScoreBoard {
     private void addFrameTotalToScoreBoardTotal(Frame frame, int index) {
         if (checkAndHandleStrike(frame, index)) return;
         if (checkAndHandleSpare(frame, index)) return;
-        this.total += Integer.parseInt(frame.firstRoll) + Integer.parseInt(frame.secondRoll);
+        this.total += frame.total();
     }
 
     private boolean checkAndHandleStrike(Frame frame, int index) {
-        if(frame.firstRoll.equals("X")){
-            strike(index);
+        if(frame.isStrike()){
+            handleStrike(index);
             return true;
         }
         return false;
     }
 
     private boolean checkAndHandleSpare(Frame frame, int index) {
-        if(frame.secondRoll.equals("/")){
-            spare(index);
+        if(frame.isSpare()){
+            handleSpare(index);
             return true;
         }
         return false;
     }
 
-    private void strike(int index) {
+    private void handleStrike(int index) {
         this.total += 10;
         addFrameTotalToScoreBoardTotal(frames.get(index + 1), index+1);
     }
 
-    private void spare(int index) {
-        this.total += 10 + Integer.parseInt(frames.get(index + 1).firstRoll);
+    private void handleSpare(int index) {
+        this.total += 10 + frames.get(index + 1).firstRoll();
     }
 }
