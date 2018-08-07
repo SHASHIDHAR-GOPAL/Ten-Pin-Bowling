@@ -67,37 +67,37 @@ class ScoreBoardTest {
     }
 
     @Test
-    void shouldReturnThirtyGivenSpareFollowedByStrike () {
+    void shouldReturnThirtyGivenSpareFollowedByStrike() {
         ScoreBoard scoreBoard = new ScoreBoard("2/ X 00 00 00 00 00 00 00 00");
         assertEquals(30, scoreBoard.total());
     }
 
     @Test
-    void shouldReturnFortyGivenSpareFollowedByStrikeAndFivePointsInNextFrame () {
+    void shouldReturnFortyGivenSpareFollowedByStrikeAndFivePointsInNextFrame() {
         ScoreBoard scoreBoard = new ScoreBoard("2/ X 23 00 00 00 00 00 00 00");
         assertEquals(40, scoreBoard.total());
     }
 
     @Test
-    void shouldReturnFortyGivenSpareFollowedByTwoStrike () {
+    void shouldReturnFortyGivenSpareFollowedByTwoStrike() {
         ScoreBoard scoreBoard = new ScoreBoard("2/ X X 00 00 00 00 00 00 00");
         assertEquals(50, scoreBoard.total());
     }
 
     @Test
-    void shouldReturnFortyGivenSpareFollowedByTwoStrikeAndSevenPointsInNextFrame () {
+    void shouldReturnFortyGivenSpareFollowedByTwoStrikeAndSevenPointsInNextFrame() {
         ScoreBoard scoreBoard = new ScoreBoard("2/ X X 61 00 00 00 00 00 00");
         assertEquals(70, scoreBoard.total());
     }
 
     @Test
-    void shouldReturnSeventySixGivenSpareFollowedByTwoStrikeAndSpare () {
+    void shouldReturnSeventySixGivenSpareFollowedByTwoStrikeAndSpare() {
         ScoreBoard scoreBoard = new ScoreBoard("2/ X X 6/ 00 00 00 00 00 00");
         assertEquals(76, scoreBoard.total());
     }
 
     @Test
-    void shouldReturnNinetyOneGivenSpareFollowedByTwoStrikeAndASpareFollowedBySevenPoints () {
+    void shouldReturnNinetyOneGivenSpareFollowedByTwoStrikeAndASpareFollowedBySevenPoints() {
         ScoreBoard scoreBoard = new ScoreBoard("2/ X X 6/ 43 00 00 00 00 00");
         assertEquals(87, scoreBoard.total());
     }
@@ -106,5 +106,17 @@ class ScoreBoardTest {
     void shouldReturnThreeHundredGivenAllStrikes() {
         ScoreBoard scoreBoard = new ScoreBoard("X X X X X X X X X X X X");
         assertEquals(300, scoreBoard.total());
+    }
+
+    @Test
+    void shouldReturnTwoHundredAndEightyTwoGivenAllStrikesFollowedBySpare() {
+        ScoreBoard scoreBoard = new ScoreBoard("X X X X X X X X X X 2/");
+        assertEquals(282, scoreBoard.total());
+    }
+
+    @Test
+    void shouldReturnTwoNinetyThreeGivenAllStrikesFollowedByThree() {
+        ScoreBoard scoreBoard = new ScoreBoard("X X X X X X X X X X X 3");
+        assertEquals(293, scoreBoard.total());
     }
 }

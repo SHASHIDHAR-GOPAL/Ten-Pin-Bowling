@@ -3,14 +3,16 @@ package in.mavenhive.bootcamp;
 //Represents each turn.
 class Frame {
 
-    String firstRoll = "";
-    String secondRoll = "";
+    private String firstRoll = "";
+    private String secondRoll = "";
 
-    Frame(String rolls){
-        if(rolls.equals("X")) this.firstRoll += "X";
+    Frame(String rolls) {
+        if (rolls.equals("X")) this.firstRoll += "X";
         else {
             this.firstRoll += rolls.charAt(0);
-            this.secondRoll += rolls.charAt(1);
+            if (rolls.length() == 2) {
+                this.secondRoll += rolls.charAt(1);
+            }
         }
     }
 
@@ -27,7 +29,7 @@ class Frame {
     }
 
     int firstRoll() {
-        if(this.isStrike()){
+        if (this.isStrike()) {
             return 10;
         }
         return Integer.parseInt(this.firstRoll);

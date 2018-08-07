@@ -47,7 +47,7 @@ class ScoreBoard {
 
     private void handleStrike(int index) {
         this.total += 10;
-        if (frames.get(index + 1).isStrike()){
+        if (frames.get(index + 1).isStrike()) {
             this.total += 10;
             this.total += frames.get(index + 2).firstRoll();
             return;
@@ -56,7 +56,7 @@ class ScoreBoard {
             this.total += 10;
             return;
         }
-        addFrameTotalToScoreBoardTotal(frames.get(index + 1), index+1);
+        addFrameTotalToScoreBoardTotal(frames.get(index + 1), index + 1);
     }
 
     private void handleSpare(int index) {
